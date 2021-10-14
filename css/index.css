@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Work+Sans:wght@500&display=swap');
+
+:root{
+    font-family: 'Karla', sans-serif;
+}
+
+::placeholder{
+    font-family: 'Karla', sans-serif;
+    color:#CDCDCD;
+}
+
+body{
+    background:linear-gradient(45deg, #4CA6BE,#100F60);
+    min-height: 100vh;
+
+}
+
+header nav .logo{
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    margin: 2.5rem 0;
+    text-align: center;
+}
+
+main .container .todoitem h2 {
+color: white;
+}
+
+main .container .todoitem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 25%;
+}
+
+main .container .selectitem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 18%;
+}
+
+
+main .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30px;
+}
+
+main .container .todoitem .button{
+    /* padding: 10px 20px 10px 20px; */
+    color: white;
+    background: black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 25px;
+    font-weight: 800;
+    border: none;
+    width: 40px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container .selectitem .selectbutton{
+    padding: 10px 17px 10px 17px;
+    color: white;
+    background: black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+    width: 40px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container .todoitem input{
+    padding: 0px 10px 0px 10px;
+    background: #6B89AE;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+    width: 80%;
+    color:white;
+    font-family: 'Karla', sans-serif;
+    
+
+}
+
+main .container .selectitem input{
+    background: #6B89AE;
+    padding: 0px 10px 0px 10px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    outline: none;
+    width: 63%;
+    color:white;
+    font-family: 'Karla', sans-serif;
+}
